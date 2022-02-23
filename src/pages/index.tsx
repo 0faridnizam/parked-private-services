@@ -36,7 +36,7 @@ const Home: NextPage = (props: ServerSideProps) => {
           <p>
             This domain is used for private services.
             <br />
-            There might be something here in the future but there isn't right now.
+            There might be something here in the future but there isn&apos;t right now.
           </p>
         </main>
 

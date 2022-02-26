@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 
 export async function getServerSideProps(context) {
   const parsedHost = parse(`https://${context.req.headers.host}`, true);
-  const hostname = parsedHost.hostname.replace(/^[^.]+\./g, '');
+  const hostname = parsedHost.hostname.replace(/^[www.]+\./g, '');
   return { props: { hostname } };
 }
 
